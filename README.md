@@ -6,17 +6,16 @@ The Articles Code Challenge is a Python-based project that demonstrates object-o
 ## Project Structure
 ```
 code_challenge/
+├── article.py          # Article class with SQL methods
+├── author.py           # Author class with SQL methods
+├── magazine.py         # Magazine class with SQL methods
 ├── lib/                # Main code directory
-│   ├── models/         # Model classes
-│   │   ├── author.py   # Author class with SQL methods
-│   │   ├── article.py  # Article class with SQL methods
-│   │   └── magazine.py # Magazine class with SQL methods
+│   ├── debug.py        # Interactive debugging
 │   ├── db/             # Database components
 │   │   ├── connection.py # Database connection setup
 │   │   ├── schema.sql  # SQL schema definitions
 │   │   ├── seed.py     # Seed data for testing
 │   ├── controllers/    # Optional: Business logic
-│   ├── debug.py        # Interactive debugging
 ├── scripts/            # Helper scripts
 │   ├── setup_db.py     # Script to set up the database
 │   ├── run_queries.py  # Script to run example queries
@@ -91,4 +90,3 @@ This project is licensed under the terms of the LICENSE file.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
-Joyrose Kinuthia

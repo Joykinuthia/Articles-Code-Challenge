@@ -1,5 +1,5 @@
 import pytest
-from code_challenge.magazine import Magazine
+from code_challenge.lib.models.magazine import Magazine
 from code_challenge.lib.db.connection import get_connection
 from code_challenge.lib.db.seed import seed_data
 from code_challenge.scripts.setup_db import setup_database
