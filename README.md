@@ -13,23 +13,22 @@ code_challenge/
 │   │   └── magazine.py # Magazine class with SQL methods
 │   ├── db/             # Database components
 │   │   ├── connection.py # Database connection setup
+│   │   ├── schema.sql  # SQL schema definitions
 │   │   ├── seed.py     # Seed data for testing
-│   │   └── schema.sql  # SQL schema definitions
 │   ├── controllers/    # Optional: Business logic
 │   ├── debug.py        # Interactive debugging
-│   └── __init__.py     # Makes lib a package
 ├── scripts/            # Helper scripts
 │   ├── setup_db.py     # Script to set up the database
-│   └── run_queries.py  # Script to run example queries
+│   ├── run_queries.py  # Script to run example queries
 ├── tests/              # Test directory
 │   ├── test_author.py  # Tests for Author class
 │   ├── test_article.py # Tests for Article class
-│   └── test_magazine.py # Tests for Magazine class
+│   ├── test_magazine.py # Tests for Magazine class
 ├── database.db         # SQLite database file
 ├── pytest.ini          # Pytest configuration
 ├── LICENSE             # License file
 ├── Pipfile             # Python dependencies
-└── README.md           # Project documentation
+├── README.md           # Project documentation
 ```
 
 ## Features
@@ -59,7 +58,7 @@ code_challenge/
 
 4. Seed the database with test data:
    ```bash
-   python code_challenge/lib/db/seed.py
+   PYTHONPATH=. python code_challenge/lib/db/seed.py
    ```
 
 5. Run tests:
@@ -83,8 +82,13 @@ code_challenge/
   pytest
   ```
 
+## Bonus Features
+- **Most Prolific Author**: Find the author who has written the most articles.
+- **Count Articles in Magazine**: Count the number of articles in each magazine.
+
 ## License
 This project is licensed under the terms of the LICENSE file.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
+Joyrose Kinuthia
