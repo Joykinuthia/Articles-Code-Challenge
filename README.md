@@ -90,3 +90,4 @@ This project is licensed under the terms of the LICENSE file.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
+Joyrose Kinuthia
